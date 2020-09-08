@@ -84,7 +84,7 @@ hr {
     max-width: 50px;
     border-color: #0D3B66 !important;
     border-width: 3px !important;
-    margin: auto;
+    margin: auto !important;
 }
 
 #hr_light {
