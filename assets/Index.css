@@ -85,13 +85,12 @@ hr {
     border-color: #0D3B66 !important;
     border-width: 3px !important;
     margin: auto;
-    margin-top: 20px;
-    margin-bottom: 20px;
+    padding-top: 20px;
 }
 
 #hr_light {
     border-color: white !important;
-}
+};
 
 /*
 
@@ -346,6 +345,7 @@ Below is the photo gallery styling.
     justify-content: center;
     padding-bottom: 100px;
     background-color: #0D3B66;
+    padding-top: 30px;
 }
 
 #carouselExampleIndicators {
@@ -414,6 +414,10 @@ Below is the contact me styling.
     color: white;
     text-align: center;
     padding-bottom: 40px;
+}
+
+.contact_container {
+    padding-top: 20px;
 }
 
 .contact_box {
