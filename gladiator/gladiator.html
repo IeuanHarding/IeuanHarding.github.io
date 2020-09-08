@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome to the Arena</title>
+    <link rel="stylesheet" href="./assets/gladiator.css">
+</head>
+
+<body>
+    <section>
+        <h2 class="center">Welcome to the Arena!</h2>
+    </section>
+    <img class="image" src="./assets/gladiators.jpg" alt="arena image">
+    <div>
+        <h3 class="center">Input the names of the gladiators:</h3>
+    </div>
+    <div>
+        <div>
+            <p class="center">Gladiator 1: <input type="text" id="glad_1_name"></p>
+        </div>
+        <div>
+            <p class="center">Gladiator 2: <input type="text" id="glad_2_name"></p>
+        </div>
+        <div>
+            <button type="button" id=start_button size=> Start the fight!</button>
+        </div>
+    </div>
+    <div class="center"> Combat Logs:</div>
+    <div class="center" id="combat_logs"></div>
+
+
+
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="./gladiator.js"></script>
+</body>
+
+</html>

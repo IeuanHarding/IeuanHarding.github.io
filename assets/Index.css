@@ -1,0 +1,454 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+/* 
+    Above is the styling clearer.
+
+
+
+    Below is the general full-document styling
+
+*/
+
+html {
+	scroll-behavior: smooth;
+}
+
+body{
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
+    overflow-x: hidden;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+}
+
+
+h2 {
+    font-size: 30px;
+}
+
+
+h3 {
+    font-size: 25px;
+}
+
+
+section {
+    padding: 100px;
+}
+
+hr {
+    max-width: 50px;
+    border-color: #0D3B66 !important;
+    border-width: 3px !important;
+}
+
+#hr_light {
+    border-color: white !important;
+}
+
+/*
+
+End of full document styling
+
+
+Below is navbar styling
+
+*/
+
+.navbar_one {
+
+}
+
+.navbar_int {
+    background-color: #0D3B66;
+    /* add a transition */    
+}
+
+
+.navbar-brand {
+    padding-left: 20px;
+}
+
+.anchor_class{
+    display: block;
+    position: relative;
+    top: -80px;
+    visibility: hidden;
+}
+
+#anchor_hobbies {
+    top: -200px;
+}
+
+#anchor_pg {
+    top: -95px;
+}
+
+.navbar-brand {
+    color: white !important;
+}
+
+.nav-link {
+    color: white !important;
+}
+
+.nav-link:hover {
+    color: #ffffffa4 !important;
+}
+
+
+/*
+
+End of navbar styling
+
+Below is Jumbotron styling
+
+
+*/
+
+
+.header {
+    background-image: url(./Pictures/Background.jpg);
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin-bottom: 0px !important;
+    position: relative;
+}
+
+
+#jumbo_content {
+    padding-top: 5%;
+}
+
+#title {
+    font-size: 35px;
+    padding-left: 100px;
+}
+
+#deathStar {
+    background-image: url(./Pictures/pngkey.com-death-star-png-117370.png);
+    height: 200px;
+    width: 200px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-left: 150px;
+}
+
+.deathStarOut {
+    opacity: 0%;
+    transition: 10s;
+}
+
+.deathStarIn {
+    opacity: 30%;
+    transition: 10s;
+}
+
+
+
+
+
+/*
+
+End of the Jumbotron styling
+
+
+Below is About Me section styling
+
+
+*/
+
+
+#ambox {
+    padding-bottom: 80px;
+    padding-top: 60px;
+}
+
+#amtitle {
+    width: 100%;
+    padding-top: 30px;
+    text-align: center;
+    font-style: bold;
+    font-size: 30px;
+}   
+
+#amtext {
+    width: 100%;
+    padding-top: 20px;
+    margin: auto;
+    text-align: center;
+    font-style: bold;
+    font-size: 15px;
+    line-height: 24px;
+    clear: both;
+}
+
+
+/*
+
+End of the About Me section styling
+
+
+Below is four-images styling
+
+
+*/
+
+
+.img_box {
+    padding: 0px;
+    padding-left: 0px !important;
+    padding-right: 0px !important;
+}
+
+.img-responsive {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+.img_box_highlight {
+    display: block;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #0D3B66;
+    opacity: 0;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.img_box_highlight:hover {
+    opacity: 80%;
+    transition: all .35s;
+}
+
+.img_box_text {
+    font-size: 22px;
+    text-align: center;
+}
+
+
+
+/*
+
+End of the four-images styling
+
+
+Below is the hobby section styling.
+
+
+*/
+
+
+#four-icons {
+    background-color: white;
+    color: black;
+    text-align: center;
+}
+
+.icon_text {
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+.icon_image {
+    font-size: 40px;
+    color: #0D3B66;
+}
+
+.service-box {
+    margin: 20px;
+    max-width: 400px;
+}
+
+h3 {
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+
+
+/*
+
+End of the hobby section styling
+
+
+Below is the photo gallery styling.
+
+
+*/
+
+#photo_gallery {
+    padding-top: 50px;
+    background-color: #0D3B66;
+    color: white;
+    text-align: center;
+}
+
+
+#carousel_container {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 100px;
+    background-color: #0D3B66;
+}
+
+#carouselExampleIndicators {
+    width: 60%;
+    height: 30vw;
+}
+
+.carousel-item {
+    height: 30vw;
+}
+
+
+
+
+/*
+
+End of the Photo gallery styling
+
+
+Below is the coding experiments styling.
+
+
+*/
+
+
+#coding_experiments {
+    background-color: white;
+    color: black;
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.ce_pics {
+    height: 200px;
+    width: 200px;
+}
+
+#glad_pic {
+    background-image: url(./Pictures/Gladiator\ Site.PNG);
+    z-index: +1;
+
+}
+
+#eb_pic {
+    background-image: url(./Pictures/Eight\ Ball\ Site.PNG);
+    z-index: +1;
+
+}
+
+
+
+/*
+
+End of the Coding experiments styling
+
+
+Below is the contact me styling.
+
+
+*/
+
+#call-me {
+    background-color: #0D3B66;
+    padding-top: 40px;
+    color: white;
+    text-align: center;
+    padding-bottom: 40px;
+}
+
+.contact_box {
+    margin-top: 20px;
+}
+
+.icon_image2 {
+    font-size: 40px;
+}
+
+.contact_icon {
+    margin-bottom: 20px;
+}
+
+.animate__animated.animate__bounceIn {
+    --animate-duration: 2s;
+  }
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+a:visited {
+    color: white;
+    text-decoration: none;
+  }
+
+a:hover {
+    color: #ffffffa4;
+    text-decoration: none;
+}
+
+a:active {
+    color: #ffffffa4;
+    text-decoration: none;
+  }
+  
+  
+  
+
